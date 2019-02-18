@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="4" total="6" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Oneway" duration-ms="25252" started-at="2019-02-18T19:15:38Z" finished-at="2019-02-18T19:16:03Z">
+    <groups>
+    </groups>
+    <test name="DomesticFlight" duration-ms="25252" started-at="2019-02-18T19:15:38Z" finished-at="2019-02-18T19:16:03Z">
+      <class name="OneWay.domesticFlight">
+        <test-method status="PASS" signature="beforeTest()[pri:0, instance:OneWay.domesticFlight@1753acfe]" name="beforeTest" is-config="true" duration-ms="4934" started-at="2019-02-18T19:15:38Z" finished-at="2019-02-18T19:15:43Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method status="PASS" signature="GoToHomePage()[pri:0, instance:OneWay.domesticFlight@1753acfe]" name="GoToHomePage" is-config="true" duration-ms="171" started-at="2019-02-18T19:15:43Z" finished-at="2019-02-18T19:15:43Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- GoToHomePage -->
+        <test-method status="PASS" signature="check_same_from_to()[pri:0, instance:OneWay.domesticFlight@1753acfe]" name="check_same_from_to" duration-ms="10001" started-at="2019-02-18T19:15:43Z" finished-at="2019-02-18T19:15:53Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- check_same_from_to -->
+        <test-method status="PASS" signature="GoToHomePage()[pri:0, instance:OneWay.domesticFlight@1753acfe]" name="GoToHomePage" is-config="true" duration-ms="198" started-at="2019-02-18T19:15:53Z" finished-at="2019-02-18T19:15:53Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- GoToHomePage -->
+        <test-method status="PASS" signature="check_different_from_to_no_data()[pri:1, instance:OneWay.domesticFlight@1753acfe]" name="check_different_from_to_no_data" duration-ms="9844" started-at="2019-02-18T19:15:53Z" finished-at="2019-02-18T19:16:03Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- check_different_from_to_no_data -->
+        <test-method status="PASS" signature="afterTest()[pri:0, instance:OneWay.domesticFlight@1753acfe]" name="afterTest" is-config="true" duration-ms="80" started-at="2019-02-18T19:16:03Z" finished-at="2019-02-18T19:16:03Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+      </class> <!-- OneWay.domesticFlight -->
+    </test> <!-- DomesticFlight -->
+  </suite> <!-- Oneway -->
+</testng-results>

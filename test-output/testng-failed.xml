@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Oneway]">
+  <test thread-count="5" name="DomesticFlight(failed)">
+    <classes>
+      <class name="OneWay.domesticFlight">
+        <methods>
+          <include name="GoToHomePage"/>
+          <include name="beforeTest"/>
+          <include name="check_same_from_to"/>
+          <include name="afterTest"/>
+        </methods>
+      </class> <!-- OneWay.domesticFlight -->
+    </classes>
+  </test> <!-- DomesticFlight(failed) -->
+</suite> <!-- Failed suite [Oneway] -->

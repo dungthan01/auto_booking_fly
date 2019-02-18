@@ -1,0 +1,13 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="Oneway">
+	<test name="DomesticFlight">
+		<classes>
+			<class name="OneWay.domesticFlight">
+				<methods>
+					<include name="check_same_from_to"></include>
+					<include name="check_different_from_to_no_data"></include>
+				</methods>
+			</class>
+		</classes>
+	</test>
+</suite>
